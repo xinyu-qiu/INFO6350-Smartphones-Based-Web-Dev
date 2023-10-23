@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  StockApp
+//  Stock App
 //
 //  Created by 邱欣宇 on 10/21/23.
 //
