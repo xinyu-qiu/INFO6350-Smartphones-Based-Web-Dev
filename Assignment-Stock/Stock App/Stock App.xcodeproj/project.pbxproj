@@ -8,30 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		1D01C66EE4CF00F945256F8B /* Pods_Stock_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362FB8FE1BCCF3E2325FD623 /* Pods_Stock_App.framework */; };
+		F603F0F92AF4119800A2CA70 /* StockClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603F0F82AF4119800A2CA70 /* StockClass.swift */; };
+		F603F0FE2AF43DF300A2CA70 /* AddStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603F0FD2AF43BD500A2CA70 /* AddStockViewController.swift */; };
+		F603F0FF2AF43DF500A2CA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603F0FC2AF43BCC00A2CA70 /* ViewController.swift */; };
+		F603F1012AF43EFB00A2CA70 /* StockAppNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603F1002AF43EFB00A2CA70 /* StockAppNetworking.swift */; };
+		F603F1032AF443BD00A2CA70 /* StockQuoteShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F603F1022AF443BD00A2CA70 /* StockQuoteShort.swift */; };
+		F67FCA3D2AF9A8210091C52B /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FCA3B2AF9A8210091C52B /* StockTableViewCell.swift */; };
+		F67FCA3E2AF9A8210091C52B /* StockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67FCA3C2AF9A8210091C52B /* StockTableViewCell.xib */; };
 		F6CF8CF82AE49D9D00684164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8CF72AE49D9D00684164 /* AppDelegate.swift */; };
 		F6CF8CFA2AE49D9D00684164 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8CF92AE49D9D00684164 /* SceneDelegate.swift */; };
-		F6CF8CFC2AE49D9D00684164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8CFB2AE49D9D00684164 /* ViewController.swift */; };
 		F6CF8CFF2AE49D9D00684164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CF8CFD2AE49D9D00684164 /* Main.storyboard */; };
 		F6CF8D012AE49D9E00684164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CF8D002AE49D9E00684164 /* Assets.xcassets */; };
 		F6CF8D042AE49D9E00684164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6CF8D022AE49D9E00684164 /* LaunchScreen.storyboard */; };
 		F6CF8D0F2AE5CCD700684164 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8D0E2AE5CCD700684164 /* Contants.swift */; };
-		F6CF8D112AE5CCF400684164 /* AddStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF8D102AE5CCF400684164 /* AddStockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		362FB8FE1BCCF3E2325FD623 /* Pods_Stock_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stock_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFA8E0EB2AC675B62201D70 /* Pods-Stock App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock App.release.xcconfig"; path = "Target Support Files/Pods-Stock App/Pods-Stock App.release.xcconfig"; sourceTree = "<group>"; };
 		A8C2CD7CA92865D522A82C32 /* Pods-Stock App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stock App.debug.xcconfig"; path = "Target Support Files/Pods-Stock App/Pods-Stock App.debug.xcconfig"; sourceTree = "<group>"; };
+		F603F0F82AF4119800A2CA70 /* StockClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockClass.swift; sourceTree = "<group>"; };
+		F603F0FC2AF43BCC00A2CA70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F603F0FD2AF43BD500A2CA70 /* AddStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStockViewController.swift; sourceTree = "<group>"; };
+		F603F1002AF43EFB00A2CA70 /* StockAppNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAppNetworking.swift; sourceTree = "<group>"; };
+		F603F1022AF443BD00A2CA70 /* StockQuoteShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockQuoteShort.swift; sourceTree = "<group>"; };
+		F67FCA3B2AF9A8210091C52B /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		F67FCA3C2AF9A8210091C52B /* StockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockTableViewCell.xib; sourceTree = "<group>"; };
 		F6CF8CF42AE49D9D00684164 /* Stock App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6CF8CF72AE49D9D00684164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6CF8CF92AE49D9D00684164 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6CF8CFB2AE49D9D00684164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6CF8CFE2AE49D9D00684164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6CF8D002AE49D9E00684164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6CF8D032AE49D9E00684164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6CF8D052AE49D9E00684164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6CF8D0E2AE5CCD700684164 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
-		F6CF8D102AE5CCF400684164 /* AddStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,34 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F603F0FA2AF43BA900A2CA70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F603F0F82AF4119800A2CA70 /* StockClass.swift */,
+				F603F1022AF443BD00A2CA70 /* StockQuoteShort.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F603F0FB2AF43BB300A2CA70 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F603F0FC2AF43BCC00A2CA70 /* ViewController.swift */,
+				F603F0FD2AF43BD500A2CA70 /* AddStockViewController.swift */,
+				F603F1002AF43EFB00A2CA70 /* StockAppNetworking.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F67FCA3A2AF9A7F40091C52B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F67FCA3B2AF9A8210091C52B /* StockTableViewCell.swift */,
+				F67FCA3C2AF9A8210091C52B /* StockTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F6CF8CEB2AE49D9D00684164 = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +122,16 @@
 		F6CF8CF62AE49D9D00684164 /* Stock App */ = {
 			isa = PBXGroup;
 			children = (
+				F67FCA3A2AF9A7F40091C52B /* View */,
+				F603F0FB2AF43BB300A2CA70 /* Controller */,
+				F603F0FA2AF43BA900A2CA70 /* Model */,
 				F6CF8D0B2AE5CCB100684164 /* Util */,
 				F6CF8CF72AE49D9D00684164 /* AppDelegate.swift */,
 				F6CF8CF92AE49D9D00684164 /* SceneDelegate.swift */,
-				F6CF8CFB2AE49D9D00684164 /* ViewController.swift */,
 				F6CF8CFD2AE49D9D00684164 /* Main.storyboard */,
 				F6CF8D002AE49D9E00684164 /* Assets.xcassets */,
 				F6CF8D022AE49D9E00684164 /* LaunchScreen.storyboard */,
 				F6CF8D052AE49D9E00684164 /* Info.plist */,
-				F6CF8D102AE5CCF400684164 /* AddStockViewController.swift */,
 			);
 			path = "Stock App";
 			sourceTree = "<group>";
@@ -167,6 +206,7 @@
 			files = (
 				F6CF8D042AE49D9E00684164 /* LaunchScreen.storyboard in Resources */,
 				F6CF8D012AE49D9E00684164 /* Assets.xcassets in Resources */,
+				F67FCA3E2AF9A8210091C52B /* StockTableViewCell.xib in Resources */,
 				F6CF8CFF2AE49D9D00684164 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,11 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6CF8CFC2AE49D9D00684164 /* ViewController.swift in Sources */,
+				F603F0FF2AF43DF500A2CA70 /* ViewController.swift in Sources */,
 				F6CF8CF82AE49D9D00684164 /* AppDelegate.swift in Sources */,
+				F603F1032AF443BD00A2CA70 /* StockQuoteShort.swift in Sources */,
 				F6CF8CFA2AE49D9D00684164 /* SceneDelegate.swift in Sources */,
+				F67FCA3D2AF9A8210091C52B /* StockTableViewCell.swift in Sources */,
 				F6CF8D0F2AE5CCD700684164 /* Contants.swift in Sources */,
-				F6CF8D112AE5CCF400684164 /* AddStockViewController.swift in Sources */,
+				F603F1012AF43EFB00A2CA70 /* StockAppNetworking.swift in Sources */,
+				F603F0F92AF4119800A2CA70 /* StockClass.swift in Sources */,
+				F603F0FE2AF43DF300A2CA70 /* AddStockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

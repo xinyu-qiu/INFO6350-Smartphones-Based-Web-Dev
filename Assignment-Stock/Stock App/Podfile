@@ -6,22 +6,13 @@ target 'Stock App' do
   use_frameworks!
 
   # Pods for Stock App
-
   pod 'RealmSwift'
-
   pod "Alamofire"
-
   pod "SwiftSpinner"
-
   pod 'SwiftyJSON'
-
- 
+  pod "PromiseKit", "~> 8"
 
 end
-
- 
-
- 
 
 post_install do |installer|
 
